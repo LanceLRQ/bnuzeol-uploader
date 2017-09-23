@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "北师珠网络教学平台H5上传插件",
+    "version": "2.33",
+    "description": "北师珠网络教学平台H5上传插件，让我们一同和Flash说拜拜！",
+    "homepage_url": "http://oj.bnuz.edu.cn/eol/",
+    "icons": {
+        "48": "images/upload.png"
+    },
+    "permissions": [
+        "http://eol.bnuz.edu.cn/*",
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "page_action": {
+        "default_icon": "images/upload.png",
+        "default_title": "上传助手",
+        "default_popup": "page_action.html"
+    }
+}
